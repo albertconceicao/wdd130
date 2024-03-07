@@ -34,7 +34,7 @@ h6 {
 
 header {
     padding: 20px;
-    background-color: var(--additional-accent-color);
+    background-color: var(--accent2-color);
 }
 main, footer {
     padding: 20px;
