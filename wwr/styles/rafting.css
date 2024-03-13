@@ -86,3 +86,8 @@ nav a:hover {
     max-width: 300px;
     height: auto;
 }
+
+footer nav img {
+    min-width: 30px;
+    min-height: 30px;
+}
