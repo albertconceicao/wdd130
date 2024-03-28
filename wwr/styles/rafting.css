@@ -179,7 +179,13 @@ nav a:hover {
     max-width: 200px;
 
 }
-.adventure img, .employees img{
+.adventure img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 8px;
+
+}
+.employees img{
     max-width: 280px;
     height: auto;
     border-radius: 8px;
