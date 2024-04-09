@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting momentum | Trips </title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="Welcome to trips page.">
+    <meta name="author" content="Albert Conceição">
+
+</head>
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Rafting Site Logo">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="./images/hero.png" alt="Hero image containing rafting sport"/>
+            <h1>Rafting Momentum</h1>
+            <article>
+                <img src="./images/happy-person.png" alt="Happy client practicing rafting"/>
+                <p>
+                    We have the puporse to make Rafting accessible to all people that have interest in. Sometimes Rafting can be expensive but, our purpose is to remove this roadblock with accessible costs that'll allow everyone to feel the adrenaline of Rafting.
+                </p>
+            </article>
+        </div>
+        
+        <!-- <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample" data-slide-to="1"></li>
+                <li data-target="#carouselExample" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/trip-1.jpg" alt="Trip 1">
+                    <div class="carousel-caption">
+                        <h3>GRAND CANYON OF PERU</h3>
+                        <p>Rio Marañon flows throw the heart of the Peruvian Andes. It is the hydrological source of the Amazon, making it one of the most important and stunning wild rivers in Latin America.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/trip-2.jpg" alt="Trip 2">
+                    <div class="carousel-caption">
+                        <h3>Apurimac River Rafting Black Canyon</h3>
+                        <p>The Apurimac river (Speaker of the Gods) or (means “the oracle”) in the native Inca Language, is the most direct source of the Amazon River, making it the longest river in the world. It has different sections, some of them are very good for rafting. This river rafting is rated among the 10 best rafting trips in the world. We start the trip in Cusco at 3,400 mts altitude and drive down to the canyon at 2200 meters. So, the weather is much warmer.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/trip-3.webp" alt="Trip 3">
+                    <div class="carousel-caption">
+                        <h3>Family Float at the Nile</h3>
+                        <p>For the not so adventurous or the not so tall, why not spend your time drifting down the Nile. Beautiful islands, birdlife and flat, slow moving water make it the ideal short family outing for both young and old.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> -->
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item" id="item1">
+                    <div class="trip">
+                        <figure>
+                            <img src="./images/trip-1.jpg" alt="Trip 1">
+                            <figcaption class="text-item">
+                                <h2>GRAND CANYON OF PERU</h2>
+                                <p>Rio Marañon flows throw the heart of the Peruvian Andes. It is the hydrological source of the Amazon, making it one of the most important and stunning wild rivers in Latin America.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="carousel-item" id="item2">
+                    <div class="trip trip-highlight">
+                        <figure>
+                            <img src="./images/trip-2.jpg" alt="Trip 2">
+                            <figcaption class="text-item">
+                                <h2>Apurimac River Rafting Black Canyon</h2>
+                                <p>The Apurimac river (Speaker of the Gods) or (means “the oracle”) in the native Inca Language, is the most direct source of the Amazon River, making it the longest river in the world. It has different sections, some of them are very good for rafting. This river rafting is rated among the 10 best rafting trips in the world. We start the trip in Cusco at 3,400 mts altitude and drive down to the canyon at 2200 meters. So, the weather is much warmer.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="carousel-item" id="item3">
+                    <div class="trip">
+                        <figure>
+                            <img src="./images/trip-3.webp" alt="Trip 3">
+                            <figcaption  class="text-item">
+                                <h2>Family Float at the Nile</h2>
+                                <p>For the not so adventurous or the not so tall, why not spend your time drifting down the Nile. Beautiful islands, birdlife and flat, slow moving water make it the ideal short family outing for both young and old.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <div class="carousel-control" onclick="prevSlide()">&#10094;</div>
+                <div class="carousel-control" onclick="nextSlide()">&#10095;</div>
+            </div>
+        </div>
+    
+       
+        <section class="trip-table">
+            <h2>Available Trips</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Duration</th>
+                        <th>Difficulty Level</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Grand Canyon of Peru</td>
+                        <td>7 days</td>
+                        <td>Intermediate</td>
+                        <td>$1500</td>
+                    </tr>
+                    <tr>
+                        <td>Apurimac River Rafting Black Canyon</td>
+                        <td>3 days</td>
+                        <td>Advanced</td>
+                        <td>$1250</td>
+                    </tr>
+                    <tr>
+                        <td>Family Float at the Nile</td>
+                        <td>1 day</td>
+                        <td>Beginner</td>
+                        <td>$650</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>
+            &copy;2024, Rafting Momentum, Albert Conceição
+        </p>
+        <nav>
+            <a href="https://facebook.com" target="_blank">
+                <img src="./images/facebook-icon.svg" alt="Facebook navegation icon" />
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="./images/twitter.svg" alt="Twitter navegation icon" />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="./images/instagram.svg" alt="instagram navegation icon" />
+            </a>
+            <a href="./images/rafting-trips-wireframe.png" target="_blank">
+                Wireframe
+            </a>
+        </nav>
+    </footer>
+    <script>
+        let currentIndex = 0;
+        const items = document.querySelectorAll('.carousel-item');
+        const totalItems = items.length;
+        let slideInterval = setInterval(nextSlide, 4000);
+      
+        function showSlide(index) {
+          items.forEach(item => {
+            item.style.transform = `translateX(-${index * 100}%)`;
+          });
+          currentIndex = index;
+        }
+      
+        function nextSlide() {
+          currentIndex++;
+          if (currentIndex >= totalItems) {
+            currentIndex = 0;
+          }
+          showSlide(currentIndex);
+        }
+      
+        function prevSlide() {
+          currentIndex--;
+          if (currentIndex < 0) {
+            currentIndex = totalItems - 1;
+          }
+          showSlide(currentIndex);
+        }
+      </script>
+      
+</body>
+</html>
